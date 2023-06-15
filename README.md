@@ -1,9 +1,33 @@
 # GWAS_locus_browser
-* updated 5/6/2021
+* updated 5/13/2021
 
 ## Contributors
 * Main Developers: Francis P. Grenn, Jonggeol J. Kim, Mary B. Makarious
 * Design and Concept: Francis P. Grenn, Jonggeol J. Kim, Mary B. Makarious, Cornelis Blauwendraat, Andrew B. Singleton
+
+## Package Versions
+
+R version 4.2.1  
+data.table/1.14.2  
+dplyr/1.0.10  
+DT/0.24  
+ggplot2/3.3.6  
+googleAnalyticsR/1.1.0  
+googledrive/2.0.0  
+htmlwidgets/1.5.4  
+httr/1.4.4  
+openxlsx/4.2.5.2  
+plotly/4.9.3  
+shiny/1.6.0  
+shinyanimate/0.3.0  
+shinycssloaders/1.0.0  
+shinydashboard/0.7.2  
+shinydashboardPlus/0.7.5  
+shinyhelper/0.3.2  
+shinyjs/2.1.0  
+shinyWidgets/0.5.0  
+stringr/1.4.1  
+
 
 ## File Overview
 * ui.R - code for user interface layout.
@@ -12,6 +36,7 @@
 * sidebar.R - code for the sidebar and header elements. Contains logic for the searchbar.
 * tutorial.R - code for the tutorial mode.
 * about.R - code for the about tab. 
+* user_stats.R - code for the user stats tab. 
 * [name]_section.R - code for a section in the browser. 
 * appManifest.txt - list of files and folders that will be deployed to the server for the public version of the app
    * typically includes: all .R files, the www/ folder
